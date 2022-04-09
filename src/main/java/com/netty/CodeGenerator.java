@@ -14,7 +14,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.*;
 
 /**
- * @Author
+ * @Authorhgigui
  * @Description
  * @Date
  **/
@@ -26,6 +26,7 @@ public class CodeGenerator {
      * </p>
      */
     public static String scanner(String tip) {
+        System.out.println("=======================");
         Scanner scanner = new Scanner(System.in);
         StringBuilder help = new StringBuilder();
         help.append("请输入" + tip + "：");
